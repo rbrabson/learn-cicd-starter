@@ -4,7 +4,7 @@ This repo contains the starter code for the "Notely" application for the "Learn 
 
 ## Test Status
 
-![Code Coverage](https://github.com/rbrabson/learn-cicd-starter/actions/workflows/ci/badge.svg)
+![Code Coverage](https://github.com/rbrabson/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 ## Local Development
 
