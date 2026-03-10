@@ -17,7 +17,6 @@ func TestGetAPIKey_MalformedAuthHeader(t *testing.T) {
 	if err == nil || err.Error() != "malformed authorization header" {
 		t.Fatalf("expected malformed authorization header error, got %v", err)
 	}
-	t.Fatal("Forcing failure to test CI")
 }
 
 func TestGetAPIKey_ValidAuthHeader(t *testing.T) {
