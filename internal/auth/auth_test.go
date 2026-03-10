@@ -16,8 +16,7 @@ func TestGetAPIKey_MalformedAuthHeader(t *testing.T) {
 	_, err := GetAPIKey(headers)
 	if err == nil || err.Error() != "malformed authorization header" {
 		t.Fatalf("expected malformed authorization header error, got %v", err)
-	}
-}
+	}}
 
 func TestGetAPIKey_ValidAuthHeader(t *testing.T) {
 	headers := make(map[string][]string)
@@ -29,5 +28,4 @@ func TestGetAPIKey_ValidAuthHeader(t *testing.T) {
 	}
 	if apiKey != expectedAPIKey {
 		t.Fatalf("expected API key %s, got %s", expectedAPIKey, apiKey)
-	}
-}
+	}}
